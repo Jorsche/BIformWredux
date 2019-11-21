@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
-import Upload from "./upload/Upload";
+import BiForm from "../src/BiForm/BiForm"
+
 
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">
-        <div className="Card">
-          <Upload />
+      
+        <BiForm/>
         </div>
-      </div>
     );
   }
 }
